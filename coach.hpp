@@ -10,7 +10,7 @@ class Coach
         Coach(std::string, double);
         Coach(const Coach&);
         Coach(const Coach&&);
-
+    public:
         void set_name(std::string);
         void set_salary(double);
         std::string get_name() const;
