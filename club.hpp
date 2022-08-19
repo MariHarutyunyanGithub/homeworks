@@ -11,7 +11,7 @@ class Club
         Club() = default;
         Club(std::string);
         ~Club();
-
+    public:
         void set_name(std::string);
         void set_player(Player*);
         void set_coach(Coach*);
