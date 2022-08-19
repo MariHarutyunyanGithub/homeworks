@@ -14,7 +14,7 @@ class Pixel
         Pixel(int, int);
         Pixel(const Pixel&);
         Pixel(const Pixel&&);
-
+    public:
         void Print_data();
 };
 
