@@ -11,6 +11,7 @@ class Name
     public:
         Name() = default;
         Name(std::string);
+    public:
         std::string get_name();
         friend std::ostream& operator<<(std::ostream& os, const Name& name)
         {
