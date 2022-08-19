@@ -10,7 +10,7 @@ class Player
         Player(std::string, int);
         Player(const Player&);
         Player(const Player&&);
-
+    public:
         void set_name(std::string);
         void set_age(int);
         std::string get_name() const;
