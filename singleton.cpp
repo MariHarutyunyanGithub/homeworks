@@ -13,7 +13,7 @@ class Singleton
         Singleton()  = default;
         ~Singleton()
         {
-            delete instance;
+            instance = nullptr;
         }
     public:
        static Singleton& getInstance()
