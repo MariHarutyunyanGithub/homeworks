@@ -3,7 +3,6 @@
 //Note that you must do this in-place without making a copy of the array.
 
 #include <iostream>
-#include <unordered_map>
 
 int* zeros_to_end(int* arr, int size)
 {
